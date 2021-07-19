@@ -11,7 +11,7 @@
   min-width: 358px;
   min-height: 50px;
   cursor: pointer;
-  transition: opacity 0.3 ease;
+  transition: opacity 0.3s ease;
   border-radius: 2px;
   border: none;
   outline: none;
