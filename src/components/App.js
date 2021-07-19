@@ -29,7 +29,7 @@ function App() {
   const [loggedIn, setLoggedIn] = React.useState(false);
   const [isSuccess, setIsSuccess] = React.useState(false);
   const [email, setEmail] = React.useState('');
-  
+
   const history = useHistory();
 
   React.useEffect(() => {
@@ -166,7 +166,7 @@ function App() {
 
   function handleSignOut() {
     localStorage.removeItem('jwt');
-    setLoggedIn(false)
+    setLoggedIn(false);
     history.push('/signin');
   }
 
