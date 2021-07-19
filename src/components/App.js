@@ -161,6 +161,8 @@ function App() {
       })
       .catch((err) => {
         console.log(err);
+        setIsInfoTooltipPopupOpen(true);
+        setIsSuccess(false);
       });
   }
 
